@@ -1,0 +1,45 @@
+<style>
+a {
+  color: green;
+  text-decoration: none;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 3px black solid;
+  background-color: burlywood;
+  margin: 0;
+  padding: 18px;
+}
+ol{
+  border-right: 3px black solid;
+  width: 80px;
+  margin: 0;
+  padding: 20px;
+}
+body{
+  margin: 0;
+  background-color: blanchedalmond;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+  padding-left: 50px;
+}
+#grid #context{
+  padding-left: 40px;
+}
+@media(max-width:500px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right: none;
+}
+h1{
+border-bottom: none;
+}
+}
+</style>
